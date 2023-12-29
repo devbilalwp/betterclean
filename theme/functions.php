@@ -423,7 +423,7 @@ function custom_breadcrumb() {
 
 
 function my_acf_google_map_api( $api ){
-    $api['key'] = 'AIzaSyC-tMTaMZqa4hthLji_rcPqL3Sw28frfh8';
+    $api['key'] = 'API kEY';
     return $api;
 }
 add_filter('acf/fields/google_map/api', 'my_acf_google_map_api');
